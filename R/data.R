@@ -1,4 +1,4 @@
-#' Set of Graydon company colors
+#' Set of Bas Consultancy company colors
 #'
 #' A vector containing 5 BAS Consultancy company colors in hexadecimal format.
 #'

@@ -659,20 +659,20 @@ recode_holding_codes <- function(graph, name_activity_code, vec_holding_codes){
 #' @keywords graph company hierarchy
 #' @export
 #' @examples
-#' plot_graydon_graph(graph)
-plot_graydon_graph <- function(graph, ...){
+#' plot_bas_graph(graph)
+plot_bas_graph <- function(graph, ...){
 
   # extrafont::loadfonts(device="win", quiet = TRUE)
 
   igraph::igraph_options(
-    vertex.color = col_graydon[4],
+    vertex.color = col_bas[4],
     vertex.label.family = "Roboto",
     vertex.label.cex = .7,
-    vertex.label.color = col_graydon[8],
+    vertex.label.color = col_bas[3],
     vertex.label.dist = 1,
-    vertex.frame.color = col_graydon[3],
+    vertex.frame.color = col_bas[1],
     vertex.size = 15,
-    edge.color = col_graydon[7],
+    edge.color = 'black',
     edge.arrow.size = 0.5
   )
 

@@ -74,8 +74,8 @@ get_library_names <- function(){
 #'
 #' @export
 #' @examples
-#' install_graydon_packages()
-install_graydon_packages <- function() {
+#' install_bas_packages()
+install_bas_packages <- function() {
 
   # Installing and loading libraries
   list_of_packages <- get_library_names()
